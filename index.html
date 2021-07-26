@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./css/botones.css"> -->
+	<title>Música para programar</title>
+</head>
+<body>
+	<div class="wrapper">
+		
+		<div class="player">
+
+			<div class="player-overlay">
+				
+				<h2 class="player-title">Música para programar</h2>
+
+				<div class="player-actions">
+
+					<button class="button" id="Backward" aria-label="Retroceder" title="Retroceder 10 sg"></button>
+					<button class="button" id="Play" aria-label="Reproducir" title="Reproducir"></button>	
+					<button class="button" id="Pause" aria-label="Pausar" title="Pausar"></button>
+					<button class="button" id="Forward" aria-label="Adelantar" title="Adelantar 10 sg"></button>
+
+					<div class="player-progress">
+						<input id="progress" type="range" min="0" value="0" step="1">
+					</div>
+
+				</div>
+
+			</div>
+			
+			<video id="video" poster='../python.jpg' src='../danger.mp4' loop width="250"></video>
+
+		</div>
+
+		<div class="player2">
+
+			<div class="player-overlay2">
+				
+				<h2 class="player-title2">Música para programar</h2>
+
+				<div class="player-actions2">
+
+					<button class="button" id="Backward2" aria-label="Retroceder" title="Retroceder 10 sg"></button>
+					<button class="button" id="Play2" aria-label="Reproducir" title="Reproducir"></button>	
+					<button class="button" id="Pause2" aria-label="Pausar" title="Pausar"></button>
+					<button class="button" id="Forward2" aria-label="Adelantar" title="Adelantar 10 sg"></button>
+					
+					<div class="player-progress2">
+						<input id="progress2" type="range" min="0" value="0" step="1">
+					</div>
+
+				</div>
+
+			</div>
+			
+			<video id="video2" poster='../java.jpg' src='../momentum.mp4' loop width="250"></video>
+
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="./js/index.js">	</script>
+
+	<script type="text/javascript" src="./js/index2.js"> </script>
+	
+</body>
+</html>

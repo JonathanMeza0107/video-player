@@ -1,0 +1,48 @@
+.button{
+	inline-size: 32px;
+	block-size: 32px;
+	border: none;
+	background-color: transparent;
+	background-position: center;
+	cursor: pointer;
+}
+
+.button:active {
+	transform: scale(.9);
+}
+
+/*Botons of the first block*/
+
+#Play{
+	background-image: url('../images/play.svg'); 
+}
+
+#Pause{
+	background-image: url('../images/pause.svg'); 
+}
+
+#Backward{
+	background-image: url('../images/-10.svg'); 
+}
+
+#Forward{
+	background-image: url('../images/+10.svg'); 
+}
+
+/*Botons of the second block*/
+
+#Play2{
+	background-image: url('../images/play.svg'); 
+}
+
+#Pause2{
+	background-image: url('../images/pause.svg'); 
+}
+
+#Backward2{
+	background-image: url('../images/-10.svg'); 
+}
+
+#Forward2{
+	background-image: url('../images/+10.svg'); 
+}
